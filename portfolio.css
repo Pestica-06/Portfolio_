@@ -1,0 +1,205 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+}
+
+.container{
+    font-family: "lato", sans-serif;
+}
+.home,.skills{
+  /*   background-image:linear-gradient(#00569e,rgb(78, 116, 222)); */
+  background: url(./assets/images/background1.png);
+  min-height: 100vh;
+}
+
+.aboutme{
+    background: url(./assets/images/background2.png);
+    min-height:100vh;
+    background-size: cover;
+
+}
+
+.contact{
+    background: url(./assets/images/background-img3.png);
+    min-height:100vh;
+    background-size: cover;
+}
+
+.header{
+   background-color:#00569e;
+   height:70px;
+   width:100%;
+   position:fixed;
+   display:flex;
+   justify-content: end;
+   padding-top: 10px;
+   z-index:2;
+}
+
+.header a{
+    padding:30px;
+    font-size: 35px;
+    text-decoration: none;
+    color:white;
+}
+
+.header a:active {
+    text-decoration: underline;
+ }
+
+.box {
+    border: 1px solid white;
+    height:300px;
+    width:590px;
+    padding:7px;
+    margin-top:  290px;
+    background-color: white;
+    opacity: 0.7;
+    margin-left: 90px;
+    text-shadow:1px 1px 4px black ;
+}
+
+.home {
+    display: flex;
+    justify-content:center;
+}
+
+.box h1,h4{
+    padding:7px;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.box h1{
+    color: #00569e;
+    font-size: 90px;
+}
+.box h4{
+    color:#00569e;
+    font-size: 50px;;
+}
+.hireme{
+    font-size:30px;
+    background-color: white;
+    width:170px;
+    height:55px;
+    border-radius: 30px;
+    align-content: center;
+    margin-top: 600px;
+  
+}
+.hireme a{
+    text-decoration:none ;
+    padding:30px;
+    color:black;
+    text-shadow: 1px 1px 3px black;
+}
+.skills{
+    text-align: center;
+    color: white;
+}
+.skills img{
+    margin:50px;
+    margin-right: 100px;
+}
+.skills_img{
+    margin-left: 40px;
+    margin-top: 130px;
+}
+.html{
+    width:300px;
+}
+.js{
+    width:200px;
+    padding-bottom: 20px;
+}
+.css{
+    width:300px;
+}
+
+.skills h2{
+    font-size: 60px;
+    padding-top: 100px;
+    padding-left: 30px;
+}
+
+.aboutme h2{
+    font-size: 60px;
+    padding-top: 90px;
+    
+}
+
+.aboutme p{
+    width:850px;
+    font-size: 40px;
+    padding-top: 70px;
+}
+
+.aboutme{
+    padding-left: 80px;
+    color:white;
+}
+
+.contact{
+    padding-left: 30px;
+    color:white;
+    font-size: 30px;
+}
+
+.contactbox{
+    border:1px solid black;
+    height:150px;
+    width:400px;
+    text-align: center;
+    padding-top: 30px;
+    margin-left: 35%;
+    background-color: white;
+}
+
+.contact h2{
+    padding-left: 30px;
+    color:white;
+    font-size: 60px;
+    padding-top: 90px;
+}
+
+.contactcontent{
+    text-align: center;
+    padding-top: 10%;
+}
+
+.contact a{
+    text-decoration: none;
+}
+
+.details{
+    padding-top: 40px;
+}
+ .details p{
+    padding-top: 10px;
+ }
+
+.contactbox p,h5{
+    padding:9px;
+    color: #00569e;
+}
+
+.contactbox p{
+    font-size: 25px;
+}
+
+.contact h5{
+    border-bottom: 2px solid#00569e ;
+    font-size: 33px;
+}
+
+.contact_icon img{
+    width:50px;
+}
+
+.contact a{
+    color:white;
+}
+

@@ -3,6 +3,9 @@
     padding:0px;
     box-sizing: border-box;
 }
+html{
+    scroll-behavior: smooth;
+}
 
 .container{
     font-family: "lato", sans-serif;
@@ -87,8 +90,8 @@
     height:55px;
     border-radius: 30px;
     align-content: center;
-    margin-top: 600px;
-  
+    margin-left: 500px;
+    margin-bottom: 50px;
 }
 .hireme a{
     text-decoration:none ;
@@ -96,13 +99,18 @@
     color:black;
     text-shadow: 1px 1px 3px black;
 }
+.home_content{
+    display:flex;
+    flex-wrap: wrap;
+    width: 800px;
+}
 .skills{
     text-align: center;
     color: white;
 }
 .skills img{
     margin:50px;
-    margin-right: 100px;
+    margin-right: 150px;
 }
 .skills_img{
     margin-left: 40px;
@@ -117,6 +125,7 @@
 }
 .css{
     width:300px;
+    margin-right: 20px;
 }
 
 .skills h2{
@@ -127,19 +136,23 @@
 
 .aboutme h2{
     font-size: 60px;
-    padding-top: 90px;
+    padding-top:90px;
     
 }
 
 .aboutme p{
-    width:850px;
-    font-size: 40px;
-    padding-top: 70px;
+    width:800px;
+    font-size: 37px;
+    padding-top: 40px;
 }
 
 .aboutme{
+    padding-top: 60px;
     padding-left: 80px;
     color:white;
+}
+h2{
+    text-shadow: 2px 2px 3px black; 
 }
 
 .contact{
@@ -195,11 +208,28 @@
     font-size: 33px;
 }
 
-.contact_icon img{
+.contact img{
     width:50px;
+    padding-right: 10px;
 }
 
 .contact a{
     color:white;
+}
+
+.contact-phone{
+    display:flex;
+    justify-content: center;
+    padding-top: 30px;
+}
+
+.contact-email{
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+
+}
+footer{
+    margin-right: 20px;
 }
 

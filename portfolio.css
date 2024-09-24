@@ -46,6 +46,9 @@ html{
     text-decoration: none;
     color:white;
 }
+.header a:hover{
+    color: black;
+}
 
 .header a:active {
     text-decoration: underline;
@@ -93,11 +96,18 @@ html{
     margin-left: 500px;
     margin-bottom: 50px;
 }
+.hireme:hover{
+    background-color: #00569e;
+}
 .hireme a{
     text-decoration:none ;
     padding:30px;
     color:black;
     text-shadow: 1px 1px 3px black;
+}
+
+.hireme a:hover{
+    /* background-color: #00569e; */
 }
 .home_content{
     display:flex;

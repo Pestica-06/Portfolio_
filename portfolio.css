@@ -10,7 +10,7 @@ html{
 .container{
     font-family: "lato", sans-serif;
 }
-.home,.skills{
+.home,.skills,.Projects{
   /*   background-image:linear-gradient(#00569e,rgb(78, 116, 222)); */
   background: url(./assets/images/background1.png);
   min-height: 100vh;
@@ -98,6 +98,7 @@ html{
 }
 .hireme:hover{
     background-color: #00569e;
+    color: white;
 }
 .hireme a{
     text-decoration:none ;
@@ -106,9 +107,6 @@ html{
     text-shadow: 1px 1px 3px black;
 }
 
-.hireme a:hover{
-    /* background-color: #00569e; */
-}
 .home_content{
     display:flex;
     flex-wrap: wrap;
@@ -163,6 +161,28 @@ html{
 }
 h2{
     text-shadow: 2px 2px 3px black; 
+}
+
+.Projects h2{
+    font-size: 60px;
+    padding-top: 100px;
+    padding-left: 30px;
+    color:white;
+}
+.project-img{
+    height:350px;
+    width:250px;
+    border:3px solid white;
+    border-radius: 20px;
+    box-shadow: 3px 5px 3px black;
+}
+.project-img:hover{
+    border:3px solid #00569e;
+}
+.projects_image{
+    display:flex;
+    justify-content: space-evenly;
+    margin-top: 150px;
 }
 
 .contact{

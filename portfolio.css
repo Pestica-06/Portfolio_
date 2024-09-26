@@ -175,6 +175,8 @@ h2{
     border:3px solid white;
     border-radius: 20px;
     box-shadow: 3px 5px 3px black;
+    display: flex;
+    flex-wrap: wrap;
 }
 .project-img:hover{
     border:3px solid #00569e;

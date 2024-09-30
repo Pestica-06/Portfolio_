@@ -162,6 +162,10 @@ html{
 h2{
     text-shadow: 2px 2px 3px black; 
 }
+.Projects h4{
+    color:white;
+    font-size: 20px;
+}
 
 .Projects h2{
     font-size: 60px;
@@ -232,7 +236,7 @@ h2{
 }
 
 .contactbox p{
-    font-size: 25px;
+    font-size: 25px; 
 }
 
 .contact h5{

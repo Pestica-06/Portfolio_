@@ -341,3 +341,42 @@ footer a:hover {
     margin-bottom: 1rem;
   }
 }
+
+/* Hamburger Menu for Mobile */
+@media (max-width: 768px) {
+  .navbar {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .nav-links {
+    display: none;
+    width: 100%;
+    margin-top: 1rem;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .nav-links li {
+    width: 100%;
+    text-align: center;
+    margin-left: 0;
+  }
+
+  .hamburger {
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+  }
+
+  .hamburger .line {
+    background-color: white;
+    height: 3px;
+    width: 30px;
+    margin: 5px 0;
+  }
+
+  .hamburger.active + .nav-links {
+    display: flex;
+  }
+}
